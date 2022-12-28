@@ -14,6 +14,7 @@ function App() {
     setval((prevValue) => {
       return [...prevValue, item];
     });
+    setItem("");
     event.preventDefault();
   }
   return (
